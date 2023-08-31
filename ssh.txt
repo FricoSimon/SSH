@@ -6,7 +6,7 @@ ssh-keygen -t ed25519
 
 // Connect (Termius)
 1. Copy IP server as a host
-2. Copy the server's public key to our client (Termius)
-3. Copy the client's public key to our server setting (GCP)
-4. Input our client's secret key in Termius
-5. Type client's username and password in Termius
+2. Copy the server's public key to our client (Termius) not mandatory
+3. Copy the client's public key to our server setting (GCP) mandatory
+4. Input our client's secret key (Termius) mandatory
+5. Type client's username (mandatory) and password (not mandatory) in Termius
