@@ -4,6 +4,11 @@ ssh-keygen -t dsa
 ssh-keygen -t ecdsa -b 521
 ssh-keygen -t ed25519
 
+// Connect (SSH - Windows)
+1. Generate SSH pair key
+2. Copy public key into compute engine's metadata and give it USERNAME
+3. run SSH USERNAME@IP_ADDRESS (external)
+
 // Connect (Termius)
 1. Copy IP server as a host
 2. Copy the server's public key to our client (Termius) not mandatory
